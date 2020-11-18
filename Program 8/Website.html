@@ -1,0 +1,192 @@
+<html>
+
+<head>
+<meta name=Title content="">
+<meta name=Keywords content="">
+<meta http-equiv=Content-Type content="text/html; charset=macintosh">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
+<style>
+<!--
+ /* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+ /* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:Calibri;}
+.MsoChpDefault
+	{font-family:Calibri;}
+@page WordSection1
+	{size:595.0pt 842.0pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+</style>
+
+</head>
+
+<body bgcolor=white lang=EN-GB>
+
+<div class=WordSection1>
+
+<p class=MsoNormal>&lt;html&gt;</p>
+
+<p class=MsoNormal>&lt;head&gt;</p>
+
+<p class=MsoNormal>&nbsp;&nbsp;&nbsp; &lt;style&gt;</p>
+
+<p class=MsoNormal>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; body{font-weight:
+normal;</p>
+
+<p class=MsoNormal>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+margin: 40px auto;</p>
+
+<p class=MsoNormal>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }</p>
+
+<p class=MsoNormal>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; .opt form ,
+input[type=&quot;button&quot;]{</p>
+
+<p class=MsoNormal>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+background-color: black;</p>
+
+<p class=MsoNormal>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+color:white;</p>
+
+<p class=MsoNormal>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; /*
+padding:10px;*/</p>
+
+<p class=MsoNormal>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+margin:-14px auto;</p>
+
+<p class=MsoNormal>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+padding-left: 50px;</p>
+
+<p class=MsoNormal>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+padding-right: 50px;</p>
+
+<p class=MsoNormal>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+text-align: center;</p>
+
+<p class=MsoNormal>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+font-size: 16px;</p>
+
+<p class=MsoNormal>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }</p>
+
+<p class=MsoNormal>&nbsp;&nbsp;&nbsp;&nbsp; form,
+input[type=&quot;button&quot;] {</p>
+
+<p class=MsoNormal>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; animation: glowing
+300ms infinite;</p>
+
+<p class=MsoNormal>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; font-weight: 500%;</p>
+
+<p class=MsoNormal>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }</p>
+
+<p class=MsoNormal>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; @keyframes glowing {</p>
+
+<p class=MsoNormal>&nbsp;0% {</p>
+
+<p class=MsoNormal>&nbsp;&nbsp; background-color: red;</p>
+
+<p class=MsoNormal>&nbsp;}</p>
+
+<p class=MsoNormal>&nbsp;50% {</p>
+
+<p class=MsoNormal>&nbsp;&nbsp; background-color: orange;</p>
+
+<p class=MsoNormal>&nbsp;}</p>
+
+<p class=MsoNormal>&nbsp;100% {</p>
+
+<p class=MsoNormal>&nbsp;&nbsp; background-color: blue;</p>
+
+<p class=MsoNormal>&nbsp;}</p>
+
+<p class=MsoNormal>}</p>
+
+<p class=MsoNormal>&nbsp;&nbsp; &lt;/style&gt;</p>
+
+<p class=MsoNormal>&lt;/head&gt;</p>
+
+<p class=MsoNormal>&lt;body&gt;</p>
+
+<p class=MsoNormal>&lt;script
+src=&quot;https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js&quot;&gt;&lt;/script&gt;</p>
+
+<p class=MsoNormal>&lt;script&gt;</p>
+
+<p class=MsoNormal>$(function(){</p>
+
+<p class=MsoNormal>var image =
+$(&quot;.mainmenu&quot;).find('img').attr('src');</p>
+
+<p class=MsoNormal>$(&quot;.mainmenu a&quot;).mouseover(function(){</p>
+
+<p class=MsoNormal>var newimg = $(this).attr('data-image');</p>
+
+<p class=MsoNormal>$(this).parent().find('img').attr(&quot;src&quot;, newimg);</p>
+
+<p class=MsoNormal>});</p>
+
+<p class=MsoNormal>});</p>
+
+<p class=MsoNormal>&lt;/script&gt;</p>
+
+<p class=MsoNormal>&nbsp;&nbsp; &lt;div class=&quot;box&quot;&gt;</p>
+
+<p class=MsoNormal>&lt;div class=&quot;mainmenu&quot;&gt;</p>
+
+<p class=MsoNormal>&lt;img src=&quot;Desktop/food.jpeg&quot;&gt;</p>
+
+<p class=MsoNormal>&lt;a data-image = &quot;Desktop/food.jpeg&quot;
+href=&quot;&quot;&gt; Home&lt;/a&gt;</p>
+
+<p class=MsoNormal>&lt;a data-image = &quot;menucard.jpg&quot;
+href=&quot;&quot;&gt; Menu&lt;/a&gt;</p>
+
+<p class=MsoNormal>&lt;a href=&quot;&quot;&gt; FAQ&lt;/a&gt;</p>
+
+<p class=MsoNormal>&lt;a href=&quot;&quot;&gt; Contact&lt;/a&gt;</p>
+
+<p class=MsoNormal>&lt;/div&gt;</p>
+
+<p class=MsoNormal>&nbsp;&nbsp; &lt;/div&gt;</p>
+
+<p class=MsoNormal>&nbsp;&nbsp; &lt;div class=&quot;wd&quot;&gt;</p>
+
+<p class=MsoNormal>&lt;h1&gt; Welcome to Nandos&lt;/h1&gt;</p>
+
+<p class=MsoNormal>&lt;h4&gt; &lt;i&gt;Order delicious food online, 100%
+quality, safety and taste assured.&lt;/i&gt;&lt;/h4&gt;</p>
+
+<p class=MsoNormal>&lt;h2&gt; Call 999999999 for reservations&lt;/h2&gt;</p>
+
+<p class=MsoNormal>&lt;div class=&quot;opt&quot;&gt;</p>
+
+<p class=MsoNormal>&lt;form action=&quot;&quot; method=&quot;post&quot;&gt;</p>
+
+<p class=MsoNormal>&lt;input type=&quot;button&quot; value=&quot;ORDER
+NOW&quot;&gt;</p>
+
+<p class=MsoNormal>&lt;/form&gt;</p>
+
+<p class=MsoNormal>&lt;/div&gt;</p>
+
+<p class=MsoNormal>&lt;/div&gt;</p>
+
+<p class=MsoNormal>&lt;/body&gt;</p>
+
+<p class=MsoNormal>&lt;/html&gt;</p>
+
+</div>
+
+</body>
+
+</html>
