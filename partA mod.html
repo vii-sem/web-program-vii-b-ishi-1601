@@ -7,7 +7,7 @@ var size = 5;
 var ids = document.getElementById("demo");
 function grow(button1) {
 ids.innerHTML = 'TEXT GROWING';
-ids.setAttribute('style', "font-size: " + size + "px; color: orange");
+ids.setAttribute('style', "font-size: " + size + "px; color: red");
 size += 5;
 if(size >= 50 ){
 size = 50;
@@ -16,7 +16,7 @@ size = 50;
 function shrink(button2) {
 size -= 5;
 ids.innerHTML = 'TEXT SHRINKING';
-ids.setAttribute('style', "font-size: " + size + "px; color: green");
+ids.setAttribute('style', "font-size: " + size + "px; color: blue");
 if(size == 5 ){
 size = 5;
 }
