@@ -1,0 +1,33 @@
+@charset "ISO-8859-1";
+body {
+
+ 
+
+    background-color: #fdbcb4;
+           margin-left: 20%;
+           margin-right: 20%;
+           border: 2px dotted gray;
+           padding: 10px 10px 10px 10px;
+           font-family: sans-serif;
+} 
+
+ 
+
+#EmployeeName{
+    background-color: #afeeee;
+}
+#DateOfJoining{
+    background-color: #ffebcd;
+}
+#DateOfBirth{
+    background-color: #aaf0d1;
+}
+#Age{
+    background-color: #ccff00;
+}
+.Gender{
+    background-color: #bfc1c2;
+}
+.Highestqualification{
+    background-color: #bfc1c2;
+}
